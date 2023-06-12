@@ -1,0 +1,135 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+
+  }
+  
+
+.content .header-bar {
+    z-index: 99;
+    padding: 2em 2em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 4em;
+}
+  .sideimg{
+    width:200px;
+    height:200px;
+    justify-content: right;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(178, 209, 209);
+    /* color:black; */
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:rgb(247, 168, 181);
+    color: white;
+   }
+
+   img{
+    border-radius: 5%;
+  }
+  #grad1 {
+    height: 200px;
+    background-color: rgb(248, 188, 198); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(250, 207, 237) , rgb(163, 238, 232));
+  }
+  h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    color:rgb(180, 32, 173);
+    text-shadow: 1px 1px;
+
+}
+h3{
+    /* animation-name: calc();
+    animation-duration: 4s; */
+    font-family: 'Franklin Gothic Medium';
+}
+section {
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    
+  }
+  .skills,.certificate{
+    /* display: flex; */
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 12.25rem;
+  }
+  
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+ 
+  .experiences{
+    /* color:rgb(226, 43, 226); */
+    text-align: left;
+    justify-content: left;
+    scroll-behavior: smooth;
+    display: flex;
+  }
+  /* .light--content {
+    border-radius: 10rem;
+    padding: 0em 1em 4em;
+    margin-bottom: 1em;
+} */
+/* 
+section {
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+    display:block
+} */
+
+
+

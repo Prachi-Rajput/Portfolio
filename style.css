@@ -1,0 +1,59 @@
+/* body {
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia,'Times New Roman';
+}
+
+div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin :0;
+}
+/* @media screen and (max-width: 768px)
+<style> 
+html {
+    font-size: 80%;
+}
+.content > .light--content {
+    border-radius: 0 0 0.5em 0.5em;
+    padding: 0em 1em 4em;
+    margin-bottom: 1em;
+}
+
+section {
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px)
+<style>
+html {
+    font-size: 80%;
+}
+@media screen and (max-width: 768px)
+section#education::before {
+    width: 400px;
+    height: 400px;
+}
+<style>
+section#education::before {
+    background-image: url(/assets/media/education.svg);
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    width: 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    z-index: -1;
+    background-size: contain;
+    animation-name: elevate;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+} */
